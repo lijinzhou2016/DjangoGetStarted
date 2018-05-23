@@ -8,20 +8,17 @@ A simple django project,I hope it can help you to learn the Django Basic Use Met
 
 ## Quick Start
 
-```
-$ git clone https://github.com/mtianyan/DjangoGetStarted.git
+```python
+$ git clone https://github.com/lijinzhou2016/DjangoGetStarted.git
 $ cd DjangoGetStarted
 $ pip install -r requirements.txt
-```
 
-[Download the MySQL_python_1.2.5_cp27_none_win_amd64.whl](https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysql-python)
-
-```
-$ pip install MySQL_python_1.2.5_cp27_none_win_amd64.whl
+$ python manage.py makemigrations
+$ python manage.py migrate
 $ python manage.py runserver
 ```
 
-use the address: http://127.0.0.1:8000/form/
+vist the address: http://127.0.0.1:8000/form/
 
 ## Background:
 
